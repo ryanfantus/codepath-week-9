@@ -20,11 +20,11 @@ Most attacks were from TOR exit nodes. Interestingly, the rest of the top attack
 The top attacked port was 22, ssh, intercepted by cowrie, though the most often attacked honeypot was dionaea. This is likely due to a wider attack surface.
 
 The top five attack signatures were
-1.  **[ET COMPROMISED Known Compromised or Hostile Host Traffic TCP group 39 (281 times)](http://192.241.203.5/ui/feeds/?payload=ET+COMPROMISED+Known+Compromised+or+Hostile+Host+Traffic+TCP+group+39&channel=snort.alerts)**
-2.  **[ET DROP Dshield Block Listed Source group 1 (269 times)](http://192.241.203.5/ui/feeds/?payload=ET+DROP+Dshield+Block+Listed+Source+group+1&channel=snort.alerts)**
-3.  **[ET SCAN Potential SSH Scan (157 times)](http://192.241.203.5/ui/feeds/?payload=ET+SCAN+Potential+SSH+Scan&channel=snort.alerts)**
-4.  **[ET COMPROMISED Known Compromised or Hostile Host Traffic TCP group 30 (96 times)](http://192.241.203.5/ui/feeds/?payload=ET+COMPROMISED+Known+Compromised+or+Hostile+Host+Traffic+TCP+group+30&channel=snort.alerts)**
-5.  **[ET SCAN Suspicious inbound to MSSQL port 1433 (74 times)](http://192.241.203.5/ui/feeds/?payload=ET+SCAN+Suspicious+inbound+to+MSSQL+port+1433&channel=snort.alerts)**
+1.  **ET COMPROMISED Known Compromised or Hostile Host Traffic TCP group 39 (281 times)**
+2.  **ET DROP Dshield Block Listed Source group 1 (269 times)**
+3.  **ET SCAN Potential SSH Scan (157 times)**
+4.  **ET COMPROMISED Known Compromised or Hostile Host Traffic TCP group 30 (96 times)**
+5.  **ET SCAN Suspicious inbound to MSSQL port 1433 (74 times)**
 
 Cowrie attacks predominantly expected to login with some sort of "admin" credential, which is common with IOT devices.
 
