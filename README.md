@@ -28,4 +28,4 @@ The top five attack signatures were
 
 Cowrie attacks predominantly expected to login with some sort of "admin" credential, which is common with IOT devices.
 
-The raw exported data can be found attached here as well.
+The raw exported data can be found attached [here](session.json) as well.
